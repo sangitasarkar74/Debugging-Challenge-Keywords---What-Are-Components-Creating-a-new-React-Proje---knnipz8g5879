@@ -13,11 +13,11 @@ const App = () => {
     setCount(count + 1);
   }
   return (
-    <div class="ball">
+    <div className="ball">
       {/* <h1 class="count" ondoubleclick={() => { alert("cant edit it") }}>{count}</h1> */}
-      <h1 class="count" onDoubleClick={handleAlert}>{count}</h1>
+      <h1 className="count" onDoubleClick={handleAlert}>{count}</h1>
       {/* <button class='increment-button' onclick={() => { setCount(count + 1) }}>Increment</button> */}
-      <button class='increment-button' onClick={handleIncrement}>Increment</button>
+      <button className='increment-button' onClick={handleIncrement}>Increment</button>
     </div >
   )
 }
